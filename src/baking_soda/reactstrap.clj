@@ -78,6 +78,7 @@
     PopperTargetHelper
     Progress
     Row
+    Spinner
     TabContent
     TabPane
     Table

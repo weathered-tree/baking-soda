@@ -1,10 +1,10 @@
-(defproject baking-soda "0.2.0"
+(defproject weathered-tree/baking-soda "0.2.1"
   :description "baking-soda is an interface between clojurescript's reagent
                 and reactstrap (i.e., bootstrap 4 react components)"
-  :url "https://github.com/gadfly361/baking-soda"
+  :url "https://github.com/weathered-tree/baking-soda"
   :license {:name "MIT"}
   :scm {:name "git"
-        :url  "https://github.com/gadfly361/baking-soda"}
+        :url  "https://github.com/weathered-tree/baking-soda"}
 
   :min-lein-version "2.5.3"
 
@@ -15,7 +15,7 @@
    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
    ;; Reactstrap (bootstrap 4)
 
-   [cljsjs/reactstrap "6.0.1-0" :exclusions [cljsjs/react
+   [cljsjs/reactstrap "7.1.0-0" :exclusions [cljsjs/react
                                              cljsjs/react-dom
                                              cljsjs/react-transition-group
                                              cljsjs/react-popper]]
